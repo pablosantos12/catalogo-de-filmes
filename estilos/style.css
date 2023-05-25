@@ -1,0 +1,75 @@
+@charset "UTF-8";
+/* Mobile First */
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+:root {
+  --cor01: #0D0D0D;
+  --cor02: #590202;
+  --cor03: #F20732;
+  --cor04: #A60815;
+  --cor05: #D90B1C;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  background-color: white;
+}
+
+#cabecalho {
+  background-color: #0D0D0D;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.450);
+  color: #590202;
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 2em;
+  padding: 20px;
+  margin: 100;
+  width: 100vw;
+}
+
+h1 {
+  text-shadow: 1px 2px 0px rgba(255, 255, 255, 0.13);
+  text-align: center;
+}
+
+#conteudo {
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+  padding: 20px;
+  margin: 10px;
+}
+
+.imagem {
+  display: flex;
+  flex-direction: column;
+  padding: 5px
+}
+
+.botao {
+  background-color: white;
+  border: 2px solid rgba(0, 0, 0, 0.521);
+  border-radius: 2px;
+  height: 40px;
+  color: black;
+  font-weight: bold;
+  padding: 5px;
+  margin: 5px;
+}
+
+.botao:hover {
+  color: #D90B1C;
+  cursor: pointer;
+}
+
+p {
+  color: rgb(110, 108, 108);
+  text-align: justify;
+  margin: .3px;
+  padding: .5px;
+}
