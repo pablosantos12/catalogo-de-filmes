@@ -111,17 +111,20 @@ h1 {
   margin: auto;
 }
 
+#catalogo-filmes {
+  float: left;
+}
+
 .filmes {
-  width: 300px;
+  width: 330px;
   float: left;
   padding: 10px;
-  margin: 12px;
+  margin: 5px;
   
 }
 
 p {
   color: rgb(189, 185, 185);
-  text-align: justify;
   margin: .3px;
   padding: 5px;
 }
