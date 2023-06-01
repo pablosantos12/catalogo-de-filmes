@@ -125,7 +125,7 @@ h1 {
 
 p {
   color: rgb(189, 185, 185);
-  margin: .3px;
+  margin: auto;
   padding: 5px;
 }
 
@@ -136,8 +136,8 @@ p {
   height: 40px;
   color: white;
   padding: 5px;
-  margin: 5px;
   font-family: 'Martel Sans', sans-serif;
+  margin: 5px;
 }
 
 .botao:hover {
