@@ -1,0 +1,46 @@
+@charset "UTF-8";
+/* Mobile First */
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Martel+Sans&display=swap');
+
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  background-color: #181818;
+}
+
+#cabecalho {
+  background-color: #0000001f;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.450);
+  color: #E50914;
+  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+  padding: 7px 0px 3px 28px;
+  width: 100%;
+  
+  font-family: 'Bebas neue', sans-serif;
+  font-size: 17px;
+  letter-spacing: 2px;
+}
+
+#texto {
+  border: 1px solid red;
+  width: 800px;
+  height: 700px;
+  margin: 50px auto;
+  padding: 8px 8px;
+  
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.5em;
+  color: #fff;
+}
